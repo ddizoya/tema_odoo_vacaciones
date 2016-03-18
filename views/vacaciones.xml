@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+<data>
+
+
+<template name="Vacaciones" id="website.vacaciones" page="True">
+  <t t-call="website.layout">
+   <div id="wrap">
+     <div class="fondo_imagen">
+       <h1>Monte Fuji</h1>
+		<field name="body_html">
+    		<![CDATA[<img  src="/tema_odoo_vacaciones/static/src/img/FUJI.jpg"/>]]>
+		</field>
+       <!-- === Snippets' area === -->
+       <div class="oe_structure" />
+     </div>
+   </div>
+  </t>
+</template>
+
+<record id="vacaciones_menu" model="website.menu">
+  <field name="name">Vacaciones</field>
+  <field name="url">/page/vacaciones</field>
+  <field name="parent_id" ref="website.main_menu" />
+  <field name="sequence" type="int">100</field>
+</record>
+
+</data>
+</openerp>
