@@ -6,7 +6,7 @@
 <template name="Vacaciones" id="website.vacaciones" page="True">
   <t t-call="website.layout">
    <div id="wrap">
-     <div class="fondo_imagen">
+     <div class="fondo">
        <h1>Monte Fuji</h1>
 		<field name="body_html">
     		<![CDATA[<img  src="/tema_odoo_vacaciones/static/src/img/FUJI.jpg"/>]]>
